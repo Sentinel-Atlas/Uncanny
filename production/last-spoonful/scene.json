@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "last-spoonful",
+  "title": "Last Spoonful",
+  "status": "media_pilot",
+  "timing": {
+    "sharedSeconds": 16,
+    "endingSeconds": 14,
+    "authoredSecondsPerPlaythrough": 30,
+    "decisionTimeoutSeconds": null
+  },
+  "presentation": {
+    "aspectRatio": "16:9",
+    "videoCodec": "H264",
+    "audioCodec": "AAC",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 24
+  },
+  "assets": {
+    "intro": {
+      "path": "clips/intro.mp4",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3HsJrX229RSJ25rMqKfb7m4UHJI/fda7bf64-ba56-4285-a6c3-927c00044bb8.mp4",
+      "seconds": 16
+    },
+    "wake": {
+      "path": "clips/wake.mp4",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3HsJrX229RSJ25rMqKfb7m4UHJI/a15ce196-93c6-4b95-acb2-1ecfbdac35a2.mp4",
+      "seconds": 14
+    },
+    "sleep": {
+      "path": "clips/sleep.mp4",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3HsJrX229RSJ25rMqKfb7m4UHJI/3a3a833a-8b48-45ff-80ab-7215c2d44bd4.mp4",
+      "seconds": 14
+    },
+    "decisionFallback": {
+      "path": "frames/04-decision.png",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HsJrX229RSJ25rMqKfb7m4UHJI/hf_20260921_205125_bc9467ad-c2b2-4d8f-895e-dedc69762c9b.png"
+    }
+  },
+  "entry": "intro",
+  "nodes": {
+    "intro": {
+      "type": "video",
+      "asset": "intro",
+      "onEnded": "decision"
+    },
+    "decision": {
+      "type": "choice",
+      "hold": "retain_final_decoded_intro_frame",
+      "fallbackAsset": "decisionFallback",
+      "timeoutSeconds": null,
+      "choices": [
+        {
+          "id": "wake",
+          "label": "Wake her",
+          "next": "wake"
+        },
+        {
+          "id": "sleep",
+          "label": "Let her sleep",
+          "next": "sleep"
+        }
+      ]
+    },
+    "wake": {
+      "type": "video",
+      "asset": "wake",
+      "onEnded": "complete",
+      "outcome": {
+        "mother": "human",
+        "son": "mannequin"
+      }
+    },
+    "sleep": {
+      "type": "video",
+      "asset": "sleep",
+      "onEnded": "complete",
+      "outcome": {
+        "mother": "mannequin",
+        "son": "human"
+      }
+    },
+    "complete": {
+      "type": "end",
+      "allowReplay": true
+    }
+  },
+  "implementationNotes": [
+    "This JSON describes the scene. It is not a game runtime.",
+    "Start playback after an explicit player interaction so audio is permitted.",
+    "Preload both endings during the shared opening. On intro ended, keep its last frame visible and show two actual HTML buttons.",
+    "Keep the selected ending hidden until it has a decoded frame ready, then reveal it. Keep the held intro visible during buffering.",
+    "Lock choice input after one selection; record outcome when the selected ending completes.",
+    "Decision time is untimed and additional to 30 seconds of authored footage.",
+    "No Higgsfield generation calls or API credentials belong in the client game. Gameplay consumes completed media files only.",
+    "The generated audio is clip-local; add a separately reviewed continuous ambience track in a later sound pass if seamless decision ambience is desired."
+  ]
+}
