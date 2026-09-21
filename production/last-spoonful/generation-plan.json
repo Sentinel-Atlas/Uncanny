@@ -1,0 +1,272 @@
+{
+  "title": "Last Spoonful",
+  "status": "motion_test_pending",
+  "model_quotes_checked": "2026-09-21",
+  "pilot_cap": 800,
+  "planned_first_pass": 546,
+  "starting_balance": 3000,
+  "confirmed_balance_after_frames_and_test": 2934,
+  "source_reference": {
+    "repository_path": "From Klickpin.com- Creepy Uncanny-board-image-5-pin-id-760686193359797989.jpg",
+    "url": "https://raw.githubusercontent.com/Sentinel-Atlas/Uncanny/main/From%20Klickpin.com-%20Creepy%20Uncanny-board-image-5-pin-id-760686193359797989.jpg",
+    "confirmed_higgsfield_media_id": "3ddabdfd-3cd1-4249-800b-57b1228d1881"
+  },
+  "master": {
+    "job_id": "b31a04b6-1687-43e7-9a69-27425ee0f92d",
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "16:9",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://raw.githubusercontent.com/Sentinel-Atlas/Uncanny/main/From%20Klickpin.com-%20Creepy%20Uncanny-board-image-5-pin-id-760686193359797989.jpg"
+        }
+      ],
+      "prompt": "Create ONE original film still for the psychological horror short LAST SPOONFUL, using the supplied mannequin-family photo as a material and costume reference. Landscape 16:9, naturalistic low-budget late-1990s domestic DV film photography, restrained grain, credible dim household light. A cramped ordinary dining nook at night, cheap beige wallpaper, black window, tired wooden table. Fixed seated eye-level camera across the table, medium-wide two-shot, both faces and hands clearly visible. ONLY TWO SUBJECTS. LEFT: an exhausted living human mother around 45, dark brown hair pinned back, red knitted cardigan over an unpatterned cream blouse, realistic soft skin and under-eye fatigue, eyelids heavy but open, gentle concern, absolutely no menacing smile. RIGHT: her son represented by an obviously inanimate child-sized vintage shop mannequin, short molded light-brown hair, faint joint seams at wrist and neck, dull waxy cream plastic face, glossy fixed painted brown eyes, a small rigid half-open mouth, plain faded blue crewneck without writing. His precise material comes from the boy mannequin in the supplied reference, but reduce the theatrical huge grin to a disquieting ordinary expression. They sit close. Her left palm supports his chin; her right hand holds a small plain stainless-steel teaspoon just below his mouth. One mustard-yellow ceramic soup bowl sits in front of him; one folded cream-and-brown striped napkin beside it. The mannequin is rigid, arms resting on the table. Keep the mother's hands anatomically clear with natural finger counts. One weak warm ceiling lamp and a trace of cold window spill; eyes remain readable. A worn and intimate family moment, not a Halloween set. Unease comes from sincere care for an unresponsive plastic child. No blood, injury, supernatural glow, masks worn by humans, extra people, text, subtitles, interface, branding, montage, or dramatic camera angle."
+    }
+  },
+  "frame_requests": [
+    {
+      "index": 1,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "b31a04b6-1687-43e7-9a69-27425ee0f92d"
+          }
+        ],
+        "prompt": "Edit the supplied LAST SPOONFUL film still into ONE matching continuity frame. Preserve the exact same two character identities, red cardigan and cream blouse, plain blue sweatshirt, seated positions, room, window, lamp, table, yellow bowl, striped napkin, eye-level camera, lens, crop, dim warm light and photographic texture. Do not add people or objects. Changes must be precise physical story states, no text or interface, no blood or injury, no glowing eyes, no dramatic lighting, no unrelated distortion. The living mother's eyes have just closed with exhaustion, her head dipped only slightly. Her left living human hand still supports the boy mannequin's chin. Her right hand still holds the teaspoon in the same position. The mannequin boy's jaw has delicately closed after swallowing; his head has rotated a few degrees toward his mother. He remains entirely a vintage plastic mannequin with the same molded hair, artificial eyes, seams, and body. This is the first small impossible movement. Keep the mother entirely human, including both hands. Anatomically coherent hands."
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "b31a04b6-1687-43e7-9a69-27425ee0f92d"
+          }
+        ],
+        "prompt": "Edit the supplied LAST SPOONFUL film still into ONE matching continuity frame. Preserve the exact same two character identities, red cardigan and cream blouse, plain blue sweatshirt, seated positions, room, window, lamp, table, yellow bowl, striped napkin, eye-level camera, lens, crop, dim warm light and photographic texture. Do not add people or objects. Changes must be precise physical story states, no text or interface, no blood or injury, no glowing eyes, no dramatic lighting, no unrelated distortion. The living mother has opened her heavy eyes again and looks with tired affection at the rigid mannequin boy. Her spoon is lowered a few centimetres. A tiny ordinary drop of soup sits on his plastic chin. Her left human palm still cups his chin. Both of the mother's hands and her face are completely living human skin. The boy remains entirely rigid cream plastic with molded hair and the identical mannequin face. Everything else unchanged."
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "b31a04b6-1687-43e7-9a69-27425ee0f92d"
+          }
+        ],
+        "prompt": "Edit the supplied LAST SPOONFUL film still into ONE matching continuity frame. Preserve the exact same two character identities, red cardigan and cream blouse, plain blue sweatshirt, seated positions, room, window, lamp, table, yellow bowl, striped napkin, eye-level camera, lens, crop, dim warm light and photographic texture. Do not add people or objects. Changes must be precise physical story states, no text or interface, no blood or injury, no glowing eyes, no dramatic lighting, no unrelated distortion. The living mother has nodded off again, eyes gently closed and head slightly dipped. Her face and right hand remain human, but ONLY her LEFT hand, cupping the boy's chin, has become unmistakable glossy ivory mannequin plastic with a narrow mold seam at its wrist. Her red cardigan cuff is unchanged. The boy has slightly more flexible flesh-like lips and one subtle patch of living skin on his cheek, but his same recognisable face, molded hair and most of his body still retain their mannequin appearance. He gently starts lifting her plastic left hand away with his right hand; keep this gesture clear and natural with separated readable fingers. Her right hand holds the spoon lowered beside the yellow bowl. Show the horrible exchange through material contrast, never wounds. The frame must clearly show the mother's shut eyelids, plastic supporting hand, and boy's attentive gaze."
+      }
+    },
+    {
+      "index": 4,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "b31a04b6-1687-43e7-9a69-27425ee0f92d"
+          }
+        ],
+        "prompt": "Edit the supplied LAST SPOONFUL film still into ONE matching continuity frame. Preserve the exact same two character identities, red cardigan and cream blouse, plain blue sweatshirt, seated positions, room, window, lamp, table, yellow bowl, striped napkin, eye-level camera, lens, crop, dim warm light and photographic texture. Do not add people or objects. Changes must be precise physical story states, no text or interface, no blood or injury, no glowing eyes, no dramatic lighting, no unrelated distortion. Ending A, the mother has been woken. She is entirely living human again including BOTH hands, heavy eyes open and moist with fatigue, still tender. The boy has returned to complete motionless vintage plastic with the exact original mannequin face and molded hair. Her left hand rests human and relaxed beside his chin. With her right hand she holds a teaspoon of soup near his rigid slightly open mouth, patiently trying to feed him again. The boy's rigid hands rest on the table, and the striped napkin stays on the table. This must read as the quiet return of the starting situation, with her relieved breath and his complete stillness. No new supernatural effect."
+      }
+    },
+    {
+      "index": 5,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "b31a04b6-1687-43e7-9a69-27425ee0f92d"
+          }
+        ],
+        "prompt": "Edit the supplied LAST SPOONFUL film still into ONE matching continuity frame. Preserve the exact same two character identities, red cardigan and cream blouse, plain blue sweatshirt, seated positions, room, window, lamp, table, yellow bowl, striped napkin, eye-level camera, lens, crop, dim warm light and photographic texture. Do not add people or objects. Changes must be precise physical story states, no text or interface, no blood or injury, no glowing eyes, no dramatic lighting, no unrelated distortion. Ending B, the exchange is complete. The mother on the LEFT is now an unmistakably inanimate life-size shop mannequin in her same red knitted cardigan and cream blouse: preserve her facial identity and hair silhouette, but make her skin glossy cream plastic, hair visibly molded, eyes painted and fixed open, mouth in a small rigid resting smile, faint neck and wrist seams. The boy on the RIGHT is now a living human boy with the same apparent age, proportions, face identity and hair shape translated into natural short light-brown hair and real softly textured skin, wearing the exact blue sweatshirt. No mannequin seams on the boy. He has turned gently toward her and holds a small spoon of soup toward her rigid mouth, caring for her. Both characters remain seated. Her plastic hands rest on the table. The yellow bowl stays in the same place. Preserve the mother's hairstyle and facial identity; no generic replacement face. The horror is the reversal of care, not a threat."
+      }
+    }
+  ],
+  "frame_results": [
+    {
+      "index": 1,
+      "job_id": "e19062fa-4cb7-4b62-9ce8-2082581f6b21",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HsJrX229RSJ25rMqKfb7m4UHJI/hf_20260921_205125_e19062fa-4cb7-4b62-9ce8-2082581f6b21.png"
+    },
+    {
+      "index": 2,
+      "job_id": "a136551e-7602-4b86-bc81-23670ddedea3",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HsJrX229RSJ25rMqKfb7m4UHJI/hf_20260921_205125_a136551e-7602-4b86-bc81-23670ddedea3.png"
+    },
+    {
+      "index": 3,
+      "job_id": "bc9467ad-c2b2-4d8f-895e-dedc69762c9b",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HsJrX229RSJ25rMqKfb7m4UHJI/hf_20260921_205125_bc9467ad-c2b2-4d8f-895e-dedc69762c9b.png"
+    },
+    {
+      "index": 4,
+      "job_id": "88b187f0-a889-458d-b693-b57947ffa8af",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HsJrX229RSJ25rMqKfb7m4UHJI/hf_20260921_205125_88b187f0-a889-458d-b693-b57947ffa8af.png"
+    },
+    {
+      "index": 5,
+      "job_id": "566aaef0-570f-4a9c-b547-402c1cd1937f",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HsJrX229RSJ25rMqKfb7m4UHJI/hf_20260921_205125_566aaef0-570f-4a9c-b547-402c1cd1937f.png"
+    }
+  ],
+  "motion_test": {
+    "job_id": "90472c0c-19e3-488d-8302-fd9f3e3be00c",
+    "params": {
+      "model": "seedance_2_5",
+      "mode": "omni_reference",
+      "duration": 4,
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "generate_audio": true,
+      "bitrate_mode": "standard",
+      "count": 1,
+      "medias": [
+        {
+          "role": "start_image",
+          "value": "b31a04b6-1687-43e7-9a69-27425ee0f92d"
+        },
+        {
+          "role": "end_image",
+          "value": "e19062fa-4cb7-4b62-9ce8-2082581f6b21"
+        }
+      ],
+      "prompt": "LAST SPOONFUL, shot 1 of an original restrained psychological horror scene. Exactly four seconds. Preserve the supplied start and end frames, the woman's identity and age, the same vintage plastic mannequin child, their clothes, hands, table, spoon and yellow bowl, the locked eye-level lens and ordinary warm household lighting. A SINGLE CONTINUOUS STATIC SHOT, no cuts or zoom. 0.0–1.6 sec: an exhausted living mother tenderly supports her inert plastic son's chin with her left hand and holds a teaspoon close to his mouth with her right. Tiny natural breathing, heavy open eyes; the mannequin is completely still and never blinks. 1.6–2.5 sec: her eyelids slowly close and her head dips only a little. 2.5–4.0 sec: ONLY AFTER HER EYES ARE COMPLETELY CLOSED, the mannequin's small plastic jaw very gently closes once as if swallowing, and his head turns a few degrees toward her. The boy remains visibly artificial plastic the entire time; the mother and both her hands remain living flesh. End with her eyes closed and the child in the supplied end pose. Keep the spoon physically coherent and the two hands separate. No other supernatural change. Native audio: very quiet refrigerator hum, soft room hiss and a tiny dry mouth/joint click exactly with the mannequin movement. No dialogue, no music, no loud stinger, no subtitles, no interface, no extra people, no camera movement. The unsettling detail is tiny voluntary movement in an object while the caregiver is asleep."
+    }
+  },
+  "remaining_video_requests": [
+    {
+      "index": 1,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "duration": 12,
+        "resolution": "1080p",
+        "aspect_ratio": "16:9",
+        "generate_audio": true,
+        "bitrate_mode": "standard",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "e19062fa-4cb7-4b62-9ce8-2082581f6b21"
+          },
+          {
+            "role": "end_image",
+            "value": "bc9467ad-c2b2-4d8f-895e-dedc69762c9b"
+          },
+          {
+            "role": "image",
+            "value": "a136551e-7602-4b86-bc81-23670ddedea3"
+          }
+        ],
+        "prompt": "Original LAST SPOONFUL psychological horror film. Match the supplied references exactly: identical exhausted mother, identical son, red cardigan and cream blouse, blue sweatshirt, yellow bowl, striped napkin, beige wallpaper, black window, weak warm lamp. Locked seated eye-level camera. Emotion is patient domestic care, never aggression. Materials must remain deliberate and consistent: human skin has pores, mannequin surfaces have gloss and mold seams. Normal anatomy, coherent separate hands, only two visible people. Restrained natural performance and long quiet holds. No music, jump scare, roar, ghost, blood, injury, text, captions, or game interface. Native audio is quiet refrigerator hum and small spoon/ceramic sounds with the specified restrained speech. This is the twelve-second continuation of a shared opening. Image 1 is the starting sleeping pose, image 2 the final decision pose with the plastic supporting hand, image 3 the intermediate awake pose. 0–2 sec: mother's closed eyelids flutter open. The plastic child instantly stops his tiny swallowing movement and remains rigid while she is awake. 2–5 sec: she looks at the small soup drop on his chin and gently wipes it with her living left thumb, still supporting his chin. Very quietly in natural neutral English she says, 'Nearly finished?' Her right hand lowers the spoon toward the yellow bowl. 5–7 sec: she tries to stay awake, then slowly closes both eyes again. 7–9 sec: with her eyes fully closed, the boy's lips soften very slightly as he resumes swallowing. Use a brief closer insert of her left supporting hand: it is now cream-colored mannequin plastic with a fine mold seam at the wrist; no wound. 9–12 sec: return to the exact fixed two-shot. The boy gently lifts her plastic supporting hand away, looking at it, while her face and right hand remain human and her eyes stay closed. Finish on image 2. The relationship must be clear: the child only moves when the mother's eyes are shut. Keep the bodily exchange subtle; only the supporting left hand changes so far."
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "duration": 14,
+        "resolution": "1080p",
+        "aspect_ratio": "16:9",
+        "generate_audio": true,
+        "bitrate_mode": "standard",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "bc9467ad-c2b2-4d8f-895e-dedc69762c9b"
+          },
+          {
+            "role": "end_image",
+            "value": "88b187f0-a889-458d-b693-b57947ffa8af"
+          },
+          {
+            "role": "image",
+            "value": "b31a04b6-1687-43e7-9a69-27425ee0f92d"
+          }
+        ],
+        "prompt": "Original LAST SPOONFUL psychological horror film. Match the supplied references exactly: identical exhausted mother, identical son, red cardigan and cream blouse, blue sweatshirt, yellow bowl, striped napkin, beige wallpaper, black window, weak warm lamp. Locked seated eye-level camera. Emotion is patient domestic care, never aggression. Materials must remain deliberate and consistent: human skin has pores, mannequin surfaces have gloss and mold seams. Normal anatomy, coherent separate hands, only two visible people. Restrained natural performance and long quiet holds. No music, jump scare, roar, ghost, blood, injury, text, captions, or game interface. Native audio is quiet refrigerator hum and small spoon/ceramic sounds with the specified restrained speech. Ending A: WAKE HER. Exactly fourteen seconds, a single quiet scene. Begin from image 1: sleeping living mother, her left supporting hand plastic, partly animated mannequin boy gently holding it. At 0.5 seconds a soft young-adult male voice from the camera position calls 'Mum.' Do not show a third person. 1–3 sec: the mother's eyes open; the boy stops completely. Her supporting hand returns to natural human flesh without melting or injury. Keep the change simple using a matched brief hand insert if needed. 3–6 sec: she releases a tired breath and gently retrieves her hand from the now-rigid child's grip. The boy's face, hair, neck and hands are all the original plastic mannequin again. 6–10 sec: she takes a small spoonful from the yellow bowl and brings it to his unresponsive mouth. Very quietly, with patience rather than menace, she says 'Another little bit?' 10–14 sec: hold image 2's arrangement: living woman, entirely motionless plastic child, offered spoon. His mouth never eats and he never blinks. Her breathing is the only ongoing bodily movement. End with no cut to black and no title. The choice visibly saves the mother and interrupts the boy's return to life."
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "duration": 14,
+        "resolution": "1080p",
+        "aspect_ratio": "16:9",
+        "generate_audio": true,
+        "bitrate_mode": "standard",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "bc9467ad-c2b2-4d8f-895e-dedc69762c9b"
+          },
+          {
+            "role": "end_image",
+            "value": "566aaef0-570f-4a9c-b547-402c1cd1937f"
+          }
+        ],
+        "prompt": "Original LAST SPOONFUL psychological horror film. Match the supplied references exactly: identical exhausted mother, identical son, red cardigan and cream blouse, blue sweatshirt, yellow bowl, striped napkin, beige wallpaper, black window, weak warm lamp. Locked seated eye-level camera. Emotion is patient domestic care, never aggression. Materials must remain deliberate and consistent: human skin has pores, mannequin surfaces have gloss and mold seams. Normal anatomy, coherent separate hands, only two visible people. Restrained natural performance and long quiet holds. No music, jump scare, roar, ghost, blood, injury, text, captions, or game interface. Native audio is quiet refrigerator hum and small spoon/ceramic sounds with the specified restrained speech. Ending B: LET HER SLEEP. Exactly fourteen seconds. Image 1 is the starting decision pose. Image 2 is the final reversal: mannequin mother and living son. 0–3 sec: keep the mother's eyes closed; the boy gently lowers her glossy plastic supporting hand to the table. 3–5 sec: brief close view of her resting plastic hand beside the yellow bowl. A last quiet human exhale. 5–6 sec: MATCH CUT back to the same two-shot with the exchange complete. Use the supplied final identities: the mother is an unmistakable cream-plastic mannequin with her own recognizable face and molded hair, painted fixed eyes and faint neck seam; the boy is a living child with the corresponding natural face, hair and skin. Avoid an elaborate continuous full-body morph. 6–10 sec: the living boy, tender and concerned, takes the spoon and offers soup to his rigid mother's mouth as she had offered it to him. Her body is completely inanimate and she never blinks. 10–11 sec: the boy quietly asks 'Nearly finished?' in natural English, echoing her earlier phrase without an evil tone. 11–14 sec: hold on the boy waiting for a response that does not come. Finish on image 2. Her fixed face is the same face, not a stranger or horror mask. This is care transferred between them, with no attack or jump scare."
+      }
+    }
+  ]
+}
