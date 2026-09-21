@@ -1,6 +1,6 @@
 {
   "title": "Last Spoonful",
-  "status": "motion_test_pending",
+  "status": "media_pilot_complete",
   "model_quotes_checked": "2026-09-21",
   "pilot_cap": 800,
   "planned_first_pass": 546,
@@ -268,5 +268,121 @@
         "prompt": "Original LAST SPOONFUL psychological horror film. Match the supplied references exactly: identical exhausted mother, identical son, red cardigan and cream blouse, blue sweatshirt, yellow bowl, striped napkin, beige wallpaper, black window, weak warm lamp. Locked seated eye-level camera. Emotion is patient domestic care, never aggression. Materials must remain deliberate and consistent: human skin has pores, mannequin surfaces have gloss and mold seams. Normal anatomy, coherent separate hands, only two visible people. Restrained natural performance and long quiet holds. No music, jump scare, roar, ghost, blood, injury, text, captions, or game interface. Native audio is quiet refrigerator hum and small spoon/ceramic sounds with the specified restrained speech. Ending B: LET HER SLEEP. Exactly fourteen seconds. Image 1 is the starting decision pose. Image 2 is the final reversal: mannequin mother and living son. 0–3 sec: keep the mother's eyes closed; the boy gently lowers her glossy plastic supporting hand to the table. 3–5 sec: brief close view of her resting plastic hand beside the yellow bowl. A last quiet human exhale. 5–6 sec: MATCH CUT back to the same two-shot with the exchange complete. Use the supplied final identities: the mother is an unmistakable cream-plastic mannequin with her own recognizable face and molded hair, painted fixed eyes and faint neck seam; the boy is a living child with the corresponding natural face, hair and skin. Avoid an elaborate continuous full-body morph. 6–10 sec: the living boy, tender and concerned, takes the spoon and offers soup to his rigid mother's mouth as she had offered it to him. Her body is completely inanimate and she never blinks. 10–11 sec: the boy quietly asks 'Nearly finished?' in natural English, echoing her earlier phrase without an evil tone. 11–14 sec: hold on the boy waiting for a response that does not come. Finish on image 2. Her fixed face is the same face, not a stranger or horror mask. This is care transferred between them, with no attack or jump scare."
       }
     }
-  ]
+  ],
+  "video_jobs": [
+    {
+      "index": 1,
+      "job_id": "3b4e7b7e-ce61-409e-a5bb-020e400b9d27",
+      "status": "pending",
+      "adjustments": {
+        "medias[2].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Seedance 2.5 backend expects schema-key media roles"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "job_id": "33ba0deb-96bd-4de7-b682-d7db4dea9456",
+      "status": "pending",
+      "adjustments": {
+        "medias[2].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Seedance 2.5 backend expects schema-key media roles"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "job_id": "c675b6d6-6bb6-4a7f-89ec-170e20113964",
+      "status": "pending"
+    }
+  ],
+  "motion_test_result": {
+    "index": 0,
+    "job_id": "90472c0c-19e3-488d-8302-fd9f3e3be00c",
+    "status": "completed",
+    "type": "video",
+    "model": "seedance_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HsJrX229RSJ25rMqKfb7m4UHJI/hf_20260921_205330_90472c0c-19e3-488d-8302-fd9f3e3be00c.mp4",
+    "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HsJrX229RSJ25rMqKfb7m4UHJI/hf_20260921_204906_b31a04b6-1687-43e7-9a69-27425ee0f92d.png"
+  },
+  "confirmed_balance_after_all_submissions": 2454,
+  "actual_credits_charged": 546,
+  "video_results": [
+    {
+      "index": 1,
+      "job_id": "3b4e7b7e-ce61-409e-a5bb-020e400b9d27",
+      "status": "completed",
+      "type": "video",
+      "model": "seedance_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HsJrX229RSJ25rMqKfb7m4UHJI/hf_20260921_205807_3b4e7b7e-ce61-409e-a5bb-020e400b9d27.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HsJrX229RSJ25rMqKfb7m4UHJI/hf_20260921_205125_e19062fa-4cb7-4b62-9ce8-2082581f6b21.png"
+    },
+    {
+      "index": 2,
+      "job_id": "33ba0deb-96bd-4de7-b682-d7db4dea9456",
+      "status": "completed",
+      "type": "video",
+      "model": "seedance_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HsJrX229RSJ25rMqKfb7m4UHJI/hf_20260921_205808_33ba0deb-96bd-4de7-b682-d7db4dea9456.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HsJrX229RSJ25rMqKfb7m4UHJI/hf_20260921_205125_bc9467ad-c2b2-4d8f-895e-dedc69762c9b.png"
+    },
+    {
+      "index": 3,
+      "job_id": "c675b6d6-6bb6-4a7f-89ec-170e20113964",
+      "status": "completed",
+      "type": "video",
+      "model": "seedance_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HsJrX229RSJ25rMqKfb7m4UHJI/hf_20260921_205807_c675b6d6-6bb6-4a7f-89ec-170e20113964.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HsJrX229RSJ25rMqKfb7m4UHJI/hf_20260921_205125_bc9467ad-c2b2-4d8f-895e-dedc69762c9b.png"
+    }
+  ],
+  "confirmed_final_balance": 2454,
+  "unspent_pilot_reserve": 254,
+  "outputs": [
+    {
+      "name": "intro",
+      "media_id": "fda7bf64-ba56-4285-a6c3-927c00044bb8",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3HsJrX229RSJ25rMqKfb7m4UHJI/fda7bf64-ba56-4285-a6c3-927c00044bb8.mp4",
+      "duration_seconds": 16,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "resolution": "1920x1080",
+      "fps": 24
+    },
+    {
+      "name": "wake",
+      "media_id": "a15ce196-93c6-4b95-acb2-1ecfbdac35a2",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3HsJrX229RSJ25rMqKfb7m4UHJI/a15ce196-93c6-4b95-acb2-1ecfbdac35a2.mp4",
+      "duration_seconds": 14,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "resolution": "1920x1080",
+      "fps": 24
+    },
+    {
+      "name": "sleep",
+      "media_id": "3a3a833a-8b48-45ff-80ab-7215c2d44bd4",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3HsJrX229RSJ25rMqKfb7m4UHJI/3a3a833a-8b48-45ff-80ab-7215c2d44bd4.mp4",
+      "duration_seconds": 14,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "resolution": "1920x1080",
+      "fps": 24
+    }
+  ],
+  "validation": {
+    "method": "Sampled frame sheets: 2fps for the four-second test and 1fps for the other clips; ffprobe inspection of raw and assembled media.",
+    "assembly": "Trimmed the first two pieces to 4 and 12 seconds and joined them. Trimmed both outcomes to 14 seconds. Encoded H264/AAC inside Higgsfield sandbox and confirmed HTTP 200 uploads.",
+    "narrative_result": "Sampled images show the mother becoming plastic and the child human in the sleep ending, and the mother human with the mannequin child in the wake ending.",
+    "limitations": [
+      "Small generated eye and hand movements remain; the rule that the boy is perfectly still while the mother is awake is not frame-perfect.",
+      "Sampled frames do not establish uninterrupted motion quality. Audio streams are present, but dialogue wording, timing, voice consistency, and perceptual audio quality have not been verified by listening.",
+      "An abrupt visual or audio seam may be noticeable between separately generated pieces. This is a first-pass media pilot, not a polished final game.",
+      "The game runtime and clickable choices are specified in scene.json but not implemented in this deliverable."
+    ]
+  }
 }
